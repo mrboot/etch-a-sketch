@@ -1,0 +1,18 @@
+.container {
+  width: 192px;
+  height: 192px;
+  border: 1px solid black;
+  margin-top: 10px;
+}
+
+.bit {
+  width: 10px;
+  height: 10px;
+  border: 1px solid gray;
+  float: left;
+  text-align: center;
+}
+
+.active {
+  background-color: black;
+}
