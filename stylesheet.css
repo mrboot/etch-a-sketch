@@ -1,13 +1,15 @@
 .container {
-  width: 192px;
-  height: 192px;
+  /*width: 192px;
+  height: 192px;*/
+  width: 960px;
+  height: 960px;
   border: 1px solid black;
   margin-top: 10px;
 }
 
 .bit {
-  width: 10px;
-  height: 10px;
+  width: 58px;
+  height: 58px;
   border: 1px solid gray;
   float: left;
   text-align: center;
@@ -15,4 +17,5 @@
 
 .active {
   background-color: black;
+  border: 1px solid black;
 }
