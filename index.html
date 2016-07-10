@@ -8,18 +8,13 @@
   </head>
   <body>
     <h1>Etch-A-Sketch</h1>
-    <button type="button" name="clear_button">Clear the grid</button>
-    <button type="button" name="reset_button">New Grid!</button>
+    <div class="button-container">
+      <button type="button" name="clear_button" class="button -green">Clear the grid</button>
+      <button type="button" name="reset_button" id="black" class="button -dark">New plain grid</button>
+      <button type="button" name="reset_button" id="multicolour" class="button -blue">New colourful grid</button>
+      <button type="button" name="reset_button" id="gradient" class="button -border">New gradient grid</button>
+    </div>
     <div class="container">
-      <div class="row1"></div>
-      <div class="row1"></div>
-      <div class="row1"></div>
-      <div class="row2"></div>
-      <div class="row2"></div>
-      <div class="row2"></div>
-      <div class="row3"></div>
-      <div class="row3"></div>
-      <div class="row3"></div>
     </div>
     <script type="text/javascript" src="application.js"></script>
   </body>
